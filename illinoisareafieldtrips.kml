@@ -1,47 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
-	<name>illinoisareafieldtrips.kmz</name>
+	<name>illinoisareafieldtrips</name>
 	<open>1</open>
 	<Style id="s_ylw-pushpin_hl">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="m_ylw-pushpin">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="m_ylw-pushpin0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="s_ylw-pushpin">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin_hl0">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -59,6 +21,100 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl00">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
 	<Placemark>
 		<name>Indiana Dunes National Lakeshore</name>
 		<LookAt>
@@ -70,7 +126,7 @@
 			<range>8987.487550731352</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<styleUrl>#m_ylw-pushpin1</styleUrl>
 		<Point>
 			<gx:drawOrder>1</gx:drawOrder>
 			<coordinates>-87.04570859631221,41.65378026374599,0</coordinates>
@@ -91,6 +147,41 @@
 		<Point>
 			<gx:drawOrder>1</gx:drawOrder>
 			<coordinates>-88.04951142218202,41.88004940644042,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Theodore Marsh</name>
+		<description>Wetland preservation?</description>
+		<LookAt>
+			<longitude>-88.14134017944083</longitude>
+			<latitude>41.55661069750369</latitude>
+			<altitude>0</altitude>
+			<heading>0.0003975723212490976</heading>
+			<tilt>11.63633462276178</tilt>
+			<range>509.8524798169589</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-88.14167500000001,41.55711388888889,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Saganashkee Slough</name>
+		<LookAt>
+			<longitude>-87.88869347086919</longitude>
+			<latitude>41.69309722026463</latitude>
+			<altitude>0</altitude>
+			<heading>0.01153285742567878</heading>
+			<tilt>2.678757411469707</tilt>
+			<range>1494.38013387585</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-87.88869347086919,41.69309722026463,0</coordinates>
 		</Point>
 	</Placemark>
 	<Placemark>
@@ -138,7 +229,7 @@
 			<range>729.3894650855819</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<styleUrl>#m_ylw-pushpin1</styleUrl>
 		<Point>
 			<gx:drawOrder>1</gx:drawOrder>
 			<coordinates>-88.48255560890539,41.80879801127498,0</coordinates>
@@ -155,7 +246,7 @@
 			<range>3193.418092603193</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<styleUrl>#m_ylw-pushpin1</styleUrl>
 		<Point>
 			<gx:drawOrder>1</gx:drawOrder>
 			<coordinates>-89.32440881988298,41.20988494770855,0</coordinates>
@@ -189,7 +280,7 @@
 			<range>1814.870252425751</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<styleUrl>#m_ylw-pushpin1</styleUrl>
 		<Point>
 			<gx:drawOrder>1</gx:drawOrder>
 			<coordinates>-88.91237404412912,41.32486659642399,0</coordinates>
@@ -206,7 +297,7 @@
 			<range>1286.204844462446</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<styleUrl>#m_ylw-pushpin1</styleUrl>
 		<Point>
 			<gx:drawOrder>1</gx:drawOrder>
 			<coordinates>-88.29702854663719,41.73702336836397,0</coordinates>
@@ -223,7 +314,7 @@
 			<range>2255.871214094881</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<styleUrl>#m_ylw-pushpin1</styleUrl>
 		<Point>
 			<gx:drawOrder>1</gx:drawOrder>
 			<coordinates>-87.61870727464648,41.5673095764798,0</coordinates>
@@ -240,7 +331,7 @@
 			<range>692.8374398514437</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<styleUrl>#m_ylw-pushpin1</styleUrl>
 		<Point>
 			<gx:drawOrder>1</gx:drawOrder>
 			<coordinates>-88.06917998608681,41.63972898133106,0</coordinates>
@@ -257,7 +348,7 @@
 			<range>535.6992433531408</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<styleUrl>#m_ylw-pushpin1</styleUrl>
 		<Point>
 			<gx:drawOrder>1</gx:drawOrder>
 			<coordinates>-88.21938117986861,41.40902138615296,0</coordinates>
@@ -274,7 +365,7 @@
 			<range>343.3593018177102</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<styleUrl>#m_ylw-pushpin1</styleUrl>
 		<Point>
 			<gx:drawOrder>1</gx:drawOrder>
 			<coordinates>-88.99313696074915,41.32067367019429,0</coordinates>
@@ -291,7 +382,7 @@
 			<range>2670.215772531794</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<styleUrl>#m_ylw-pushpin1</styleUrl>
 		<Point>
 			<gx:drawOrder>1</gx:drawOrder>
 			<coordinates>-88.37225900945475,41.83417595500065,0</coordinates>
@@ -308,7 +399,7 @@
 			<range>2547.78384509913</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<styleUrl>#m_ylw-pushpin1</styleUrl>
 		<Point>
 			<gx:drawOrder>1</gx:drawOrder>
 			<coordinates>-88.1870987865629,42.34786098750331,0</coordinates>
@@ -325,7 +416,7 @@
 			<range>2455.020511109326</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<styleUrl>#m_ylw-pushpin1</styleUrl>
 		<Point>
 			<gx:drawOrder>1</gx:drawOrder>
 			<coordinates>-88.23349830799427,42.31306723564349,0</coordinates>
@@ -342,7 +433,7 @@
 			<range>5070.633825114477</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<styleUrl>#m_ylw-pushpin1</styleUrl>
 		<Point>
 			<gx:drawOrder>1</gx:drawOrder>
 			<coordinates>-86.20198250111557,42.65502480126714,0</coordinates>
@@ -359,7 +450,7 @@
 			<range>1290.457871116017</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<styleUrl>#m_ylw-pushpin1</styleUrl>
 		<Point>
 			<gx:drawOrder>1</gx:drawOrder>
 			<coordinates>-89.02444021224542,41.29495863742734,0</coordinates>
@@ -419,6 +510,24 @@
 		</Point>
 	</Placemark>
 	<Placemark>
+		<name>Nelson Lake Forest Preserve, Batavia</name>
+		<description>stop 5 for the following fieldtrip guide: http://ia902703.us.archive.org/5/items/guidetogeolo86rein/guidetogeolo86rein.pdf</description>
+		<LookAt>
+			<longitude>-88.37423341018074</longitude>
+			<latitude>41.83639162215702</latitude>
+			<altitude>0</altitude>
+			<heading>0.001264818229141501</heading>
+			<tilt>24.15035342960283</tilt>
+			<range>2670.215772531794</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin00</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-88.37225900945475,41.83417595500065,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
 		<name>Island Park</name>
 		<LookAt>
 			<longitude>-88.30176141282868</longitude>
@@ -451,6 +560,78 @@
 		<Point>
 			<gx:drawOrder>1</gx:drawOrder>
 			<coordinates>-87.79518303971575,41.88955038347257,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Lafarge Quarry</name>
+		<description>Formerly Conco Stone Company in the following field trip guide stop 2 (permission required): http://ia902703.us.archive.org/5/items/guidetogeolo86rein/guidetogeolo86rein.pdf</description>
+		<LookAt>
+			<longitude>-88.31648341087056</longitude>
+			<latitude>41.80058181849706</latitude>
+			<altitude>0</altitude>
+			<heading>0.002746298950185778</heading>
+			<tilt>4.856957989805032</tilt>
+			<range>1418.903660486369</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin00</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-88.3203685472846,41.80294721566296,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Fabyan Forest Preserve</name>
+		<description>Stop 3 of http://ia902703.us.archive.org/5/items/guidetogeolo86rein/guidetogeolo86rein.pdf</description>
+		<LookAt>
+			<longitude>-88.31206331857854</longitude>
+			<latitude>41.86931216401943</latitude>
+			<altitude>0</altitude>
+			<heading>-8.201612867529581e-10</heading>
+			<tilt>0</tilt>
+			<range>1002.65979087046</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin00</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-88.31206331857854,41.86931216401943,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Kaneville Esker</name>
+		<description>Requires prior permission to enter.  Details from stop 6 of the following fieldtrip guide: http://ia902703.us.archive.org/5/items/guidetogeolo86rein/guidetogeolo86rein.pdf</description>
+		<LookAt>
+			<longitude>-88.48399135581415</longitude>
+			<latitude>41.82564063811758</latitude>
+			<altitude>0</altitude>
+			<heading>-0.03341617023348534</heading>
+			<tilt>33.37362742474862</tilt>
+			<range>2000.157169628637</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin00</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-88.48360936176822,41.82306044195583,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Quarry Park</name>
+		<description>Stop 4 of the following guide: http://ia902703.us.archive.org/5/items/guidetogeolo86rein/guidetogeolo86rein.pdf</description>
+		<LookAt>
+			<longitude>-88.31036975268283</longitude>
+			<latitude>41.84360282358166</latitude>
+			<altitude>0</altitude>
+			<heading>1.122854962952179e-05</heading>
+			<tilt>15.79047995339398</tilt>
+			<range>1096.008933453989</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin00</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-88.30992652914651,41.8433590482113,0</coordinates>
 		</Point>
 	</Placemark>
 </Document>
